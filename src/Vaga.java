@@ -25,6 +25,6 @@ public class Vaga {
 
     @Override
     public String toString() {
-        return "Vaga Disponivel" + ocupada + ", Nenhum" + (veiculo != null ? veiculo.toString() : "Veiculo") + "]";
+        return "Vaga [ocupada" + ocupada + ", veiculo=" + (veiculo != null ? veiculo.toString() : "Nenhum") + "]";
     }
 }
